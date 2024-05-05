@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>UI5 Web Components</title>
+
+		<!-- bootstrap the UI5 Web Components (as module for ES6 browsers, as non-module for ES5/IE11) -->
+		<script src="/src/playground/bundle.esm.js"
+				type="module">
+		</script>
+
+		<script>
+			function init() {
+				document.getElementById("myButton").addEventListener("press", function() {
+					alert(document.getElementById("myInput").value);
+				});
+				document.getElementById("myInput").addEventListener("change", function(oEvent) {
+					document.getElementById("myButton").innerHTML = oEvent.srcElement.value;
+				});
+			}
+		</script>
+
+	</head>
+	<body id="content" class="sapUiBody" onload="init()">
+
+		<div id="buttonP" style="padding:1rem 2rem;">
+			<ui5-button id="myButton">Button</ui5-button>
+		</div>
+
+		<div id="labelP" style="padding:1rem 2rem;">
+			<ui5-label id="myLabel">Label</ui5-label>
+		</div>
+
+		<div id="inputP" style="padding:1rem 2rem;width:300px;">
+			<ui5-input id="myInput" value="Input"></ui5-input>
+		</div>
+
+		<div id="datePickerP" style="padding:1rem 2rem;width:300px">
+			<ui5-datepicker id="myDatepicker" value="Aug 14, 2018"></ui5-datepicker>
+		</div>
+
+		<div id="listP" style="padding:1rem 2rem;">
+			<ui5-list id="myList" header-text="Names">
+				<ui5-li>
+					Mueller, Peter
+				</ui5-li>
+				<ui5-li>
+					Maier, Petra
+				</ui5-li>
+				<ui5-li>
+					Smith, Thomas
+				</ui5-li>
+				<ui5-li>
+					Williams, John
+				</ui5-li>
+				<ui5-li>
+					Jones, Maria
+				</ui5-li>
+			</ui5-list>
+		</div>
+
+	</body>
+</html>
