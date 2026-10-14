@@ -36,6 +36,7 @@ import getLocaleData from "@ui5/webcomponents-localization/dist/locale/getLocale
 // });
 
 import Avatar from "@ui5/webcomponents/dist/Avatar.js";
+import AvatarBadge from "@ui5/webcomponents/dist/AvatarBadge.js"; // since 2.19
 import AvatarGroup from "@ui5/webcomponents/dist/AvatarGroup.js";
 import Bar from "@ui5/webcomponents/dist/Bar.js";
 import Breadcrumbs from "@ui5/webcomponents/dist/Breadcrumbs.js";
@@ -58,6 +59,7 @@ import ColorPalettePopover from "@ui5/webcomponents/dist/ColorPalettePopover.js"
 import ColorPicker from "@ui5/webcomponents/dist/ColorPicker.js";
 import ComboBox from "@ui5/webcomponents/dist/ComboBox.js";
 import ComboBoxItem from "@ui5/webcomponents/dist/ComboBoxItem.js";
+import ComboBoxItemCustom from "@ui5/webcomponents/dist/ComboBoxItemCustom.js"; // since 2.24
 import ComboBoxItemGroup from "@ui5/webcomponents/dist/ComboBoxItemGroup.js";
 import DatePicker from "@ui5/webcomponents/dist/DatePicker.js";
 import DateRangePicker from "@ui5/webcomponents/dist/DateRangePicker.js";
@@ -83,11 +85,14 @@ import MenuItemGroup from "@ui5/webcomponents/dist/MenuItemGroup.js";
 import MenuSeparator from "@ui5/webcomponents/dist/MenuSeparator.js";
 import MessageStrip from "@ui5/webcomponents/dist/MessageStrip.js";
 import MultiInput from "@ui5/webcomponents/dist/MultiInput.js";
+import NumberInput from "@ui5/webcomponents/dist/NumberInput.js"; // since 2.27
 import MultiComboBox from "@ui5/webcomponents/dist/MultiComboBox.js";
 import MultiComboBoxItem from "@ui5/webcomponents/dist/MultiComboBoxItem.js";
+import MultiComboBoxItemCustom from "@ui5/webcomponents/dist/MultiComboBoxItemCustom.js"; // since 2.24
 import MultiComboBoxItemGroup from "@ui5/webcomponents/dist/MultiComboBoxItemGroup.js";
 import Option from "@ui5/webcomponents/dist/Option.js";
 import OptionCustom from "@ui5/webcomponents/dist/OptionCustom.js";
+import OptionGroup from "@ui5/webcomponents/dist/OptionGroup.js"; // since 2.26
 import Panel from "@ui5/webcomponents/dist/Panel.js";
 import Popover from "@ui5/webcomponents/dist/Popover.js";
 import ProgressIndicator from "@ui5/webcomponents/dist/ProgressIndicator.js";
@@ -112,6 +117,7 @@ import TabSeparator from "@ui5/webcomponents/dist/TabSeparator.js";
 import Table from "@ui5/webcomponents/dist/Table.js";
 import TableCell from "@ui5/webcomponents/dist/TableCell.js";
 import TableGrowing from "@ui5/webcomponents/dist/TableGrowing.js";
+import TableGroupRow from "@ui5/webcomponents/dist/TableGroupRow.js"; // since 2.23
 import TableHeaderCell from "@ui5/webcomponents/dist/TableHeaderCell.js";
 import TableHeaderCellActionAI from "@ui5/webcomponents/dist/TableHeaderCellActionAI.js";
 import TableHeaderRow from "@ui5/webcomponents/dist/TableHeaderRow.js";
