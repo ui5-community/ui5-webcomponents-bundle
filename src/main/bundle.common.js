@@ -85,11 +85,11 @@ import MenuItemGroup from "@ui5/webcomponents/dist/MenuItemGroup.js";
 import MenuSeparator from "@ui5/webcomponents/dist/MenuSeparator.js";
 import MessageStrip from "@ui5/webcomponents/dist/MessageStrip.js";
 import MultiInput from "@ui5/webcomponents/dist/MultiInput.js";
-import NumberInput from "@ui5/webcomponents/dist/NumberInput.js"; // since 2.27
 import MultiComboBox from "@ui5/webcomponents/dist/MultiComboBox.js";
 import MultiComboBoxItem from "@ui5/webcomponents/dist/MultiComboBoxItem.js";
 import MultiComboBoxItemCustom from "@ui5/webcomponents/dist/MultiComboBoxItemCustom.js"; // since 2.24
 import MultiComboBoxItemGroup from "@ui5/webcomponents/dist/MultiComboBoxItemGroup.js";
+import NumberInput from "@ui5/webcomponents/dist/NumberInput.js"; // since 2.27
 import Option from "@ui5/webcomponents/dist/Option.js";
 import OptionCustom from "@ui5/webcomponents/dist/OptionCustom.js";
 import OptionGroup from "@ui5/webcomponents/dist/OptionGroup.js"; // since 2.26
